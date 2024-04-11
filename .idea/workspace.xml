@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04eac0e4-559e-4041-9c50-c73c0d58c852" name="Changes" comment="" />
+    <list default="true" id="04eac0e4-559e-4041-9c50-c73c0d58c852" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Budget-Tracker/Budget-Tracker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generate Random Numbers/Generate Random Numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MazeProject/MazeProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/DesignPattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/src/com/desingpattern/singleresponsibilitypattern/Journal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/src/com/desingpattern/singleresponsibilitypattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/src/com/desingpattern/singleresponsibilitypattern/Persistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/src/resources/journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2evuPymcEzLI7QQtV81VqZaqDei" />
   <component name="ProjectViewState">
@@ -15,10 +46,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/projects/DesignPatterns/src/com/designpatterns/srp"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\DesignPatterns\src\com\designpatterns\srp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\DesignPatterns\src\com\designpatterns\ocp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.designpatterns.ocp.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.srp.Main" />
       <module name="DesignPatterns" />
@@ -32,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.designpatterns.ocp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.ocp.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpatterns.ocp.specificationI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.designpatterns.ocp.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

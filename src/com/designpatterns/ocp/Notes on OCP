@@ -1,0 +1,10 @@
+The Open/Closed Principle (OCP) is a fundamental concept in object-oriented programming that emphasizes the
+importance of designing software entities (classes, modules, functions, etc.) to be open for extension but closed for modification.
+In simpler terms, it means that you should be able to extend the behavior of a class without modifying its source code.
+
+The Open/Closed Principle (OCP) and the Specification Pattern are related concepts that address different aspects of software design,
+but they can complement each other when designing flexible and maintainable systems.
+
+Specification Pattern:
+
+By creating Specification interface with 1 method signature that satisfies the requirement of feature modification.
