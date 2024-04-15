@@ -25,4 +25,6 @@ public class ProductFilter {
         return product.stream().filter(p->p.size==size && p.color==color);
     }
 
+
+
 }

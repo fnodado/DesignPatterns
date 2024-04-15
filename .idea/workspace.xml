@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04eac0e4-559e-4041-9c50-c73c0d58c852" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Budget-Tracker/Budget-Tracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Generate Random Numbers/Generate Random Numbers.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MazeProject/MazeProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DesignPattern/.gitignore" beforeDir="false" />
@@ -20,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../DesignPattern/src/com/desingpattern/singleresponsibilitypattern/Persistence.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DesignPattern/src/resources/journal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpatterns/ocp/ProductFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpatterns/ocp/ProductFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +48,32 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/projects/DesignPatterns/src/com/designpatterns/srp"
+    "last_opened_file_path": "D:/projects/DesignPatterns/src/resources"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\DesignPatterns\src\resources" />
       <recent name="D:\projects\DesignPatterns\src\com\designpatterns\srp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\DesignPatterns\src\com\designpatterns\ocp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.designpatterns.ocp.Main">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.liskov.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpatterns.liskov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.srp.Main" />
       <module name="DesignPatterns" />
@@ -88,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.com.designpatterns.ocp.Main" />
         <item itemvalue="Application.Main" />
       </list>

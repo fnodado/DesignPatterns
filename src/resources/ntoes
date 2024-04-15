@@ -1,0 +1,39 @@
+Single responsibility - one job for each class
+
+Open/Close principle - open for extension close for modification
+    - thinking about method overriding
+    - example in a shopping site filter function,
+    filter function has different kinds of filter
+    - given a functionality filter , and different kinds
+    of filter are introduce like price, range, date, review
+    - bad design is to create an if statement in the
+    filter method and check each type of filter
+    - good design is to create another interface to satisfy
+    each type of filter
+    - OCP complements Specification pattern. See codes for
+    example
+
+Liskov Substitution Principle - refers to a super class
+    be inter substitutable to its child class vice
+    versa without altering the correctness of the program.
+    - example is rectangle and square code, square can
+    be a rectangle with equal sides
+    - if square extends rectangle, it should not break
+    the program.
+    - LSP complements Factory pattern
+
+Interface segregation principle - clients should not force
+    to depend on interfaces that they did not use.
+    - bad design , given an interface worker. A worker
+    has 3 methods ( eat, sleep , work).
+    - there will be an extending class called engineer that
+    uses all 3 methods
+    - but another extending class called lazyPerson that only
+    uses 2 methods eat and sleep.
+    - ISP complements decorative patter to create smaller interfaces
+    and focused to one.
+
+Dependency Inversion principle -  High-level modules should not
+    depend on low-level modules. Both should depend on abstractions.
+
+    - DIP complements Handler chain pattern.
