@@ -1,6 +1,8 @@
-package com.designpatterns.ocp;
+package com.designpatterns.ocp.specificationPattern.specification;
 
-import com.designpatterns.ocp.specificationI.Specification;
+import com.designpatterns.ocp.initial.Color;
+import com.designpatterns.ocp.initial.Product;
+import com.designpatterns.ocp.specificationPattern.specificationI.Specification;
 
 public class ColorSpecification implements Specification<Product> {
 

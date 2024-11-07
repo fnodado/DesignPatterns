@@ -1,4 +1,4 @@
-package com.designpatterns.ocp.specificationI;
+package com.designpatterns.ocp.specificationPattern.specificationI;
 
 
 import java.util.List;

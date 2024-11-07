@@ -1,6 +1,6 @@
-package com.designpatterns.ocp;
+package com.designpatterns.ocp.specificationPattern.specification;
 
-import com.designpatterns.ocp.specificationI.Specification;
+import com.designpatterns.ocp.specificationPattern.specificationI.Specification;
 
 public class BiSpecification<T> implements Specification<T> {
 

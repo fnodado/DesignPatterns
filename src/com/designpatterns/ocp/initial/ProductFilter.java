@@ -1,5 +1,9 @@
-package com.designpatterns.ocp;
+package com.designpatterns.ocp.initial;
 
+
+import com.designpatterns.ocp.initial.Color;
+import com.designpatterns.ocp.initial.Product;
+import com.designpatterns.ocp.initial.Size;
 
 import java.util.List;
 import java.util.stream.Stream;

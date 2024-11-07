@@ -1,0 +1,14 @@
+Open-Closed Principle + Specification
+
+Problem: Given that there is an existing implementation of a service. And there is a need for
+an increasing number of specification in this service. For example, we have a product class with
+fields name, price and category. We want to create a service to filter the specific field to the
+product. By creating a condition to check each field creates a tightly coupled with specific
+criteria.
+
+Solution: Apply Specification Pattern.
+Steps:
+    1. Create a Specification interface and define a function to handle a condition.
+    2. Create a Filter interface
+    3. Create a class specific to a specification e.g(ColorSpecification, PriceSpecification,
+       CategorySpecification

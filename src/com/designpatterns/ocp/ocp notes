@@ -1,0 +1,18 @@
+Solution: We need to create an interface to calculate earnings, IEarningsCalculator. We
+    need to create a class for each specific category and implements the interface
+    IEarningsCalculator.
+
+    OCP will solve the concept to not modify but open for extension. We can also notice
+    that there will be no compilation error.
+
+
+    Specification pattern - is a design pattern to define business rules to filter criteria in
+    a reusable, combinable and testable way
+
+     Steps: we introduce 2 interfaces for open for extension pattern:
+          1. Create a generic specification interface and define 1 boolean method with
+          a generic parameter item.
+          2. Create a filter interface with 2 parameters. 1st parameter is a list of
+          generic items. 2nd parameter is generic specification.
+          3. Create a specific specification class that will implement the Specification class.
+          Override the boolean method and implement based on the specification.

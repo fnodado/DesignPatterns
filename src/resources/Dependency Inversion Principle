@@ -1,0 +1,6 @@
+Dependency Inversion principle -  High-level modules should not
+    depend on low-level modules. Both should depend on abstractions.
+
+    - DIP complements Handler chain pattern.
+
+    - We must depend on abstractions and not concrete classes

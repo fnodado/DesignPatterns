@@ -1,0 +1,16 @@
+Single Responsibility
+
+Problem:
+    If a class has multiple responsibilities, changes in one part of the class may unintentionally
+ affect other parts. This can lead to tightly coupled code that is hard to understand, test
+ and maintain. When multiple people work on the same class for different reasons, it increases
+ the risk introducing bugs.
+
+Solution:
+- one job for each class
+- separation of concerns ( different classes handling different, independent
+                      taks/patterns )
+- a class should have a minimal responsibility
+
+
+

@@ -1,0 +1,9 @@
+Liskov Substitution Principle - refers to a super class
+    be inter substitutable to its child class vice
+    versa without altering the correctness of the program.
+    - example is rectangle and square code, square can
+    be a rectangle with equal sides
+    - if square extends rectangle, it should not break
+    the program.
+    - LSP complements Factory pattern
+    -subtypes should be replaceable by their base types

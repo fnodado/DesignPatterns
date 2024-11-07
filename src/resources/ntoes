@@ -1,6 +1,9 @@
 Single responsibility - one job for each class
+                      - separation of concerns - different classes handling different, independent
+                      taks/patterns
 
-Open/Close principle - open for extension close for modification
+Open/Close principle - open for extension, closed for modification
+    - This principle is specific to already available specification.
     - thinking about method overriding
     - example in a shopping site filter function,
     filter function has different kinds of filter

@@ -1,6 +1,15 @@
 package com.designpatterns.ocp;
 
-import com.designpatterns.ocp.specificationI.Specification;
+import com.designpatterns.ocp.specificationPattern.BetterFilter;
+import com.designpatterns.ocp.specificationPattern.specification.BiSpecification;
+import com.designpatterns.ocp.specificationPattern.specification.ColorSpecification;
+import com.designpatterns.ocp.specificationPattern.specification.SizeSpecification;
+import com.designpatterns.ocp.specificationPattern.specificationI.*;
+import com.designpatterns.ocp.initial.Color;
+import com.designpatterns.ocp.initial.Product;
+import com.designpatterns.ocp.initial.ProductFilter;
+import com.designpatterns.ocp.initial.Size;
+
 import java.util.List;
 
 public class Main {

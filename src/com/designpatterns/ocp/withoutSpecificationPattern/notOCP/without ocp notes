@@ -1,0 +1,6 @@
+PROBLEM: If we add a new category like Educational, we need to modify the
+    class enum CATEGORY, modify getEarnings, and create another helper function
+    calculateEducational.
+
+    As we added the EDUCATIONAL category, we can see the compilation error because
+    it requires to be modified.

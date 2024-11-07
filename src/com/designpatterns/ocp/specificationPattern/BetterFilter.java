@@ -1,7 +1,8 @@
-package com.designpatterns.ocp;
+package com.designpatterns.ocp.specificationPattern;
 
-import com.designpatterns.ocp.specificationI.Filter;
-import com.designpatterns.ocp.specificationI.Specification;
+import com.designpatterns.ocp.initial.Product;
+import com.designpatterns.ocp.specificationPattern.specificationI.Filter;
+import com.designpatterns.ocp.specificationPattern.specificationI.Specification;
 
 import java.util.List;
 import java.util.stream.Stream;

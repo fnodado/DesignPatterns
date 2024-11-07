@@ -1,0 +1,11 @@
+Interface segregation principle - clients should not force
+    to depend on interfaces that they did not use.
+    - bad design , given an interface worker. A worker
+    has 3 methods ( eat, sleep , work).
+    - there will be an extending class called engineer that
+    uses all 3 methods
+    - but another extending class called lazyPerson that only
+    uses 2 methods eat and sleep.
+    - ISP complements decorator pattern to create smaller interfaces
+    and focused to one.
+    - Many specific interfaces are better than a general interface
